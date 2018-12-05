@@ -156,9 +156,14 @@ dmypy.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-
+.vscode
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
 
 # End of https://www.gitignore.io/api/macos,python,visualstudiocode
+
+
+#Custom
+#ignore all wav files generated 
+audio_clips/*.wav
